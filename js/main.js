@@ -6,8 +6,8 @@
 
 let сalculator = {
   read() {
-    this.firstNumber = Number.parseFloat(prompt('Введіть перше число'));
-    this.secondNumber = Number.parseFloat(prompt('Введіть друге число'));
+    this.firstNumber = Number.parseFloat(prompt('Введіть перше число', 0));
+    this.secondNumber = Number.parseFloat(prompt('Введіть друге число', 0));
   },
 
   sum() {
